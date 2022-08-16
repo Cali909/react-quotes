@@ -1,10 +1,13 @@
 import { NavLink } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
+// import { useNavigate } from "react-router-dom";
 
 const MainNavigation = () => {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>React Quotes</div>
+      <NavLink to="/quotes" className={classes.logo}>
+        React Quotes
+      </NavLink>
       <nav className={classes.nav}>
         <ul>
           <li>
