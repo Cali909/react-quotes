@@ -10,6 +10,8 @@
   font-weight: bold;
   display: block;
   margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
 }
 
 .control label::before {
@@ -26,7 +28,7 @@
   border: 1px solid #c1d1d1;
   display: block;
   width: 100%;
-  font-size: 1.25rem;
+  font-size: 0.8rem;
 }
 
 .control input:focus,
@@ -40,9 +42,35 @@
 }
 
 .actions button {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  padding: 0.6rem;
+  margin-top: 1rem;
 }
 
 .error {
   color: red;
+}
+
+@media screen and (min-width: 470px) {
+  .control label {
+    font-size: 1.2rem;
+  }
+  .control input,
+  .control textarea {
+    font-size: 1.2rem;
+  }
+  .actions button {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+  }
+}
+@media screen and (min-width: 850px) {
+  .control input,
+  .control textarea {
+    font-size: 1.4rem;
+  }
+  .actions button {
+    font-size: 1.3rem;
+    padding: 0.9rem;
+  }
 }

@@ -9,7 +9,7 @@
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1rem;
   color: white;
   cursor: pointer;
   text-decoration: none;
@@ -23,14 +23,37 @@
 }
 
 .nav a {
-  font-size: 1.25rem;
-  margin-left: 2.5rem;
+  font-size: 0.8rem;
+  margin-left: 1rem;
   text-decoration: none;
   color: #88dfdf;
+  white-space: nowrap;
 }
 
 .nav a:hover,
 .nav a:active,
 .nav a.active {
   color: #e6fcfc;
+}
+
+@media screen and (min-width: 470px) {
+  .logo {
+    font-size: 1.3rem;
+  }
+
+  .nav a {
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .logo {
+    font-size: 1.8rem;
+  }
+
+  .nav a {
+    font-size: 1.3rem;
+    margin-left: 4rem;
+  }
 }

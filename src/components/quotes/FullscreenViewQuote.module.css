@@ -2,20 +2,40 @@
   background-color: #162b2b;
   color: white;
   border-radius: 6px;
-  padding: 3rem;
+  padding: 2rem;
   margin: 3rem auto;
   width: 90%;
   max-width: 40rem;
 }
 
 .quote p {
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
 .quote figcaption {
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: right;
   color: #a1e0e0;
+}
+
+@media screen and (min-width: 470px) {
+  .quote p {
+    font-size: 1.5rem;
+  }
+
+  .quote figcaption {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .quote p {
+    font-size: 1.8rem;
+  }
+
+  .quote figcaption {
+    font-size: 1.4rem;
+  }
 }
