@@ -5,7 +5,7 @@ import FullscreenViewQuote from "../components/quotes/FullscreenViewQuote";
 const QUOTES = [
   { id: "q1", author: "Cali", text: "I'm Working on Quotes Project" },
   { id: "q2", author: "Moris", text: "This Project is So Much Fun" },
-  { id: "q3", author: "Madison", text: "It's Implemented With React" },
+  { id: "q3", author: "Madison", text: "It's Implemented in React" },
 ];
 
 const QuoteDetail = () => {
