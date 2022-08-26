@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { useParams, Outlet } from "react-router-dom";
+import Comments from "../components/comments/Comments";
 import FullscreenViewQuote from "../components/quotes/FullscreenViewQuote";
 
 const QUOTES = [
@@ -25,6 +26,7 @@ const QuoteDetail = () => {
         author={wantedQuote.author}
         text={wantedQuote.text}
       />
+      <Comments />
       <Outlet />
     </Fragment>
   );
